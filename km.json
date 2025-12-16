@@ -1,0 +1,53 @@
+{
+  "huyen": "Hoài Đức",
+  "tinh": "Hà Nội",
+  "xa": [
+    {
+      "ten": "La Phù",
+      "thon": [
+        "Hưng Vượng",
+        "Minh Khai",
+        "Tiền Phong",
+        "Trần Phú",
+        "Quyết Tiến",
+        "Thống Nhất",
+        "Thắng Lợi",
+        "Hoàng Hoa Thám",
+        "Độc Lập"
+      ],
+      "xom": [
+        "Xóm 300"
+      ],
+      "duong": "Đồng Tiến",
+      "cum_dan_cu": "Cụm dân cư"
+    },
+    {
+      "ten": "An Khánh",
+      "thon": [
+        "Ngãi Cầu",
+        "Vân Lũng",
+        "Lại Dụ",
+        "Phú Vinh",
+        "An Bình",
+        "Trường An"
+      ]
+    },
+    {
+      "ten": "An Thượng",
+      "thon": [
+        "An Hạ",
+        "Lại Dụ",
+        "Ngự Câu",
+        "Thanh Quang",
+        "Đào Nguyên"
+      ]
+    },
+    {
+      "ten": "Đông La",
+      "thon": [
+        "Đông Lao",
+        "La Tinh"
+      ]
+    }
+  ]
+}
