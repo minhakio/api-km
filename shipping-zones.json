@@ -1,0 +1,64 @@
+{
+  "huyen": "Hoài Đức",
+  "tinh": "Hà Nội",
+  "shipping_zones": [
+    {
+      "fee": 0,
+      "areas": [
+        {"xa": "La Phù", "thon": ["Hưng Vượng", "Minh Khai", "Tiền Phong", "Trần Phú", "Quyết Tiến", "Thống Nhất"]},
+        {"xa": "La Phù", "duong": ["Đồng Tiến trên"]},
+        {"xa": "La Phù", "xom": ["Xóm 300"]},
+        {"xa": "La Phù", "cum_dan_cu": "Cụm dân cư"},
+        {"xa": "An Khánh", "thon": ["An Bình", "Trường An", "Phố Đông", "Đồng mới", "Vân Lũng", "Phú Vinh"]},
+        {"xa": "An Thượng", "thon": ["An Hạ"]}
+      ],
+      "description": "Miễn phí ship"
+    },
+    {
+      "fee": 5000,
+      "areas": [
+        {"xa": "La Phù", "thon": ["Thắng Lợi", "Hoàng Hoa Thám", "Độc Lập"]},
+        {"xa": "La Phù", "duong": ["Đồng Tiến dưới"]},
+        {"xa": "An Khánh", "thon": ["Ngãi Cầu", "PĐ vin thăng long"]}
+      ],
+      "description": "Ship 5k"
+    },
+    {
+      "fee": 10000,
+      "areas": [
+        {"xa": "An Khánh", "thon": ["Vân Lũng", "Phú Vinh"]},
+        {"xa": "An Thượng", "thon": ["An Hạ"]}
+      ],
+      "description": "Ship 10k"
+    },
+    {
+      "fee": 15000,
+      "areas": [
+        {"xa": "An Thượng", "thon": ["Thanh Quang"]}
+      ],
+      "description": "Ship 15k"
+    },
+    {
+      "fee": 20000,
+      "areas": [
+        {"xa": "An Thượng", "thon": ["Ngự Câu", "Lại Dụ", "Đào Nguyên"]},
+        {"xa": "Đông La", "thon": ["Đông Lao", "La Tinh"]}
+      ],
+      "description": "Ship 20k"
+    }
+  ],
+  "api_example": {
+    "endpoint": "/calculate-shipping",
+    "method": "POST",
+    "request_body_example": {
+      "delivery_area": {
+        "xa": "La Phù",
+        "thon": "Minh Khai"
+      }
+    },
+    "response_example": {
+      "shipping_fee": 0,
+      "currency": "VND"
+    }
+  }
+}
