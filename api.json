@@ -1,0 +1,106 @@
+{
+  "huyen": "Hoài Đức",
+  "tinh": "Hà Nội",
+  "address_options": {
+    "xa_options": [
+      {
+        "value": "La Phù",
+        "label": "Xã La Phù",
+        "thon": [
+          { "value": "Hưng Vượng", "label": "Thôn Hưng Vượng" },
+          { "value": "Minh Khai", "label": "Thôn Minh Khai" },
+          { "value": "Tiền Phong", "label": "Thôn Tiền Phong" },
+          { "value": "Trần Phú", "label": "Thôn Trần Phú" },
+          { "value": "Quyết Tiến", "label": "Thôn Quyết Tiến" },
+          { "value": "Thống Nhất", "label": "Thôn Thống Nhất" },
+          { "value": "Thắng Lợi", "label": "Thôn Thắng Lợi" },
+          { "value": "Hoàng Hoa Thám", "label": "Thôn Hoàng Hoa Thám" },
+          { "value": "Độc Lập", "label": "Thôn Độc Lập" },
+          { "value": "Xóm 300", "label": "Xóm 300" },
+          { "value": "Đồng Tiến trên", "label": "Đồng Tiến trên" },
+          { "value": "Đồng Tiến dưới", "label": "Đồng Tiến dưới" },
+          { "value": "Cụm dân cư", "label": "Cụm dân cư" }
+        ]
+      },
+      {
+        "value": "An Khánh",
+        "label": "Xã An Khánh",
+        "thon": [
+          { "value": "Ngãi Cầu", "label": "Thôn Ngãi Cầu" },
+          { "value": "Vân Lũng", "label": "Thôn Vân Lũng" },
+          { "value": "Phú Vinh", "label": "Thôn Phú Vinh" },
+          { "value": "An Bình", "label": "Thôn An Bình" },
+          { "value": "Trường An", "label": "Thôn Trường An" },
+          { "value": "Phố Đông", "label": "Phố Đông" },
+          { "value": "PĐ vin thăng long", "label": "PĐ Vin Thăng Long" },
+          { "value": "Đồng mới", "label": "Đồng mới" }
+        ]
+      },
+      {
+        "value": "An Thượng",
+        "label": "Xã An Thượng",
+        "thon": [
+          { "value": "An Hạ", "label": "Thôn An Hạ" },
+          { "value": "Lại Dụ", "label": "Thôn Lại Dụ" },
+          { "value": "Ngự Câu", "label": "Thôn Ngự Câu" },
+          { "value": "Thanh Quang", "label": "Thôn Thanh Quang" },
+          { "value": "Đào Nguyên", "label": "Thôn Đào Nguyên" }
+        ]
+      },
+      {
+        "value": "Đông La",
+        "label": "Xã Đông La",
+        "thon": [
+          { "value": "Đông Lao", "label": "Thôn Đông Lao" },
+          { "value": "La Tinh", "label": "Thôn La Tinh" }
+        ]
+      }
+    ]
+  },
+  "shipping_zones": [
+    {
+      "fee": 0,
+      "areas": [
+        {"xa": "La Phù", "thon": ["Hưng Vượng", "Minh Khai", "Tiền Phong", "Trần Phú", "Quyết Tiến", "Thống Nhất"]},
+        {"xa": "La Phù", "duong": ["Đồng Tiến trên"]},
+        {"xa": "La Phù", "xom": ["Xóm 300"]},
+        {"xa": "La Phù", "cum_dan_cu": "Cụm dân cư"},
+        {"xa": "An Khánh", "thon": ["An Bình", "Trường An", "Phố Đông", "Đồng mới", "Vân Lũng", "Phú Vinh"]},
+        {"xa": "An Thượng", "thon": ["An Hạ"]}
+      ],
+      "description": "Miễn phí ship"
+    },
+    {
+      "fee": 5000,
+      "areas": [
+        {"xa": "La Phù", "thon": ["Thắng Lợi", "Hoàng Hoa Thám", "Độc Lập"]},
+        {"xa": "La Phù", "duong": ["Đồng Tiến dưới"]},
+        {"xa": "An Khánh", "thon": ["Ngãi Cầu", "PĐ vin thăng long"]}
+      ],
+      "description": "Ship 5k"
+    },
+    {
+      "fee": 10000,
+      "areas": [
+        {"xa": "An Khánh", "thon": ["Vân Lũng", "Phú Vinh"]},
+        {"xa": "An Thượng", "thon": ["An Hạ"]}
+      ],
+      "description": "Ship 10k"
+    },
+    {
+      "fee": 15000,
+      "areas": [
+        {"xa": "An Thượng", "thon": ["Thanh Quang"]}
+      ],
+      "description": "Ship 15k"
+    },
+    {
+      "fee": 20000,
+      "areas": [
+        {"xa": "An Thượng", "thon": ["Ngự Câu", "Lại Dụ", "Đào Nguyên"]},
+        {"xa": "Đông La", "thon": ["Đông Lao", "La Tinh"]}
+      ],
+      "description": "Ship 20k"
+    }
+  ]
+}
